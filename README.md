@@ -9,6 +9,8 @@ The link to the blog is [https://adityasridhar.com/posts/how-to-use-nodejs-witho
 Ensure You have NodeJS installed in your system.
 Refer to [https://nodejs.org](https://nodejs.org) to install NodeJS
 
+[VS Code Extension - REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) to send mock POST
+
 ## Cloning and Running the Code
 
 This code can be cloned to your local using the command
@@ -26,3 +28,7 @@ The application can be started using the command
 ```bash
 node server.js
 ```
+
+then open the `rest.http` file in VS Code and click _send request_
+
+![](restclient.gif)
